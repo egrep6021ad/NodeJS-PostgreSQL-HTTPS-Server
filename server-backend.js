@@ -7,7 +7,7 @@ const express = require('express');
 const multer  = require('multer');
 const Pool = require('pg').Pool
 const nodemailer = require("nodemailer");
-require('dotenv').config({ path: './.piss_off.env' })
+
 
 const pool = new Pool({
     user: process.env.PSQL_USER,
